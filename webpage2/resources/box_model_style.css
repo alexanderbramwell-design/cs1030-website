@@ -1,0 +1,53 @@
+/*
+  white: #FFFFFF
+  accent 1: #1D4859
+  accent 2: #773B00
+*/
+
+body {
+  padding: 24px;
+}
+
+h1, h2, h3 {
+  color: #1D4859;
+}
+
+h1 {
+  text-align: center;
+}
+
+th, td {
+  border: 2px solid #773B00;
+  padding: 8px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+a {
+  color: #1D4859;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #773B00;
+}
+
+p.example {
+  background-color: #1D4859;
+  color: white;
+  width: 400px;
+  padding: 20px;
+  border: 5px dashed #773B00;
+  margin: 30px;
+}
+
+div {
+  background-color: #1D4859;
+  width: 646px;
+  padding: 20px;
+  border: 5px dotted #773B00;
+  margin: 30px;
+}
